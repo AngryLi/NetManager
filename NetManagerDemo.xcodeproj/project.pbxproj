@@ -33,7 +33,6 @@
 		D6A990D41EB17BBD000B0CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6A990D61EB17BBD000B0CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6A991361EB1B2A9000B0CA9 /* AGLBaseRequestAPIDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLBaseRequestAPIDelegate.h; sourceTree = "<group>"; };
-		D6A991371EB1B2A9000B0CA9 /* AGLNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLNet.h; sourceTree = "<group>"; };
 		D6A991381EB1B2A9000B0CA9 /* AGLNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLNetManager.h; sourceTree = "<group>"; };
 		D6A991391EB1B2A9000B0CA9 /* AGLNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLNetManager.m; sourceTree = "<group>"; };
 		D6A9913A1EB1B2A9000B0CA9 /* AGLNetRequestConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLNetRequestConfiguration.h; sourceTree = "<group>"; };
@@ -116,7 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				D6A991361EB1B2A9000B0CA9 /* AGLBaseRequestAPIDelegate.h */,
-				D6A991371EB1B2A9000B0CA9 /* AGLNet.h */,
 				D6A991381EB1B2A9000B0CA9 /* AGLNetManager.h */,
 				D6A991391EB1B2A9000B0CA9 /* AGLNetManager.m */,
 				D6A9913A1EB1B2A9000B0CA9 /* AGLNetRequestConfiguration.h */,
