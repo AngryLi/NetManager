@@ -9,6 +9,6 @@ target 'AGLNetManagerDemo_Pod' do
 
   # Pods for AGLNetManagerDemo_Pod
 
-  pod 'AGLNetManager', :git => 'https://github.com/AngryLi/NetManager.git', :tag => '0.0.2'
+  pod 'AGLNetManager', :git => 'https://github.com/AngryLi/NetManager.git', :tag => '0.0.3'
 
 end
