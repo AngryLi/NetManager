@@ -1,0 +1,6 @@
+framework module Pods_NetManagerDemo {
+  umbrella header "Pods-NetManagerDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
