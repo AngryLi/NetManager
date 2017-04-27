@@ -1,0 +1,39 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AGLNetManager (0.0.1):
+    - AFNetworking (~> 3.1.0)
+
+DEPENDENCIES:
+  - AGLNetManager (from `https://github.com/AngryLi/NetManager.git`, tag `0.0.2`)
+
+EXTERNAL SOURCES:
+  AGLNetManager:
+    :git: https://github.com/AngryLi/NetManager.git
+    :tag: 0.0.2
+
+CHECKOUT OPTIONS:
+  AGLNetManager:
+    :git: https://github.com/AngryLi/NetManager.git
+    :tag: 0.0.2
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AGLNetManager: 4145238e9734d44335d5d9558518f3c4f32ec3c3
+
+PODFILE CHECKSUM: f55536246be7eb94eed05561c168f652500c7e4d
+
+COCOAPODS: 1.2.1
