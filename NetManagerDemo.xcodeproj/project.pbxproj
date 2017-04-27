@@ -14,8 +14,8 @@
 		D6A990D01EB17BBD000B0CA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A990CE1EB17BBD000B0CA9 /* Main.storyboard */; };
 		D6A990D21EB17BBD000B0CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6A990D11EB17BBD000B0CA9 /* Assets.xcassets */; };
 		D6A990D51EB17BBD000B0CA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A990D31EB17BBD000B0CA9 /* LaunchScreen.storyboard */; };
-		D6A990EC1EB180FA000B0CA9 /* AGLNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A990E91EB180FA000B0CA9 /* AGLNetManager.m */; };
-		D6A990ED1EB180FA000B0CA9 /* AGLNetRequestConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A990EB1EB180FA000B0CA9 /* AGLNetRequestConfiguration.m */; };
+		D6A9913C1EB1B2A9000B0CA9 /* AGLNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A991391EB1B2A9000B0CA9 /* AGLNetManager.m */; };
+		D6A9913D1EB1B2A9000B0CA9 /* AGLNetRequestConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A9913B1EB1B2A9000B0CA9 /* AGLNetRequestConfiguration.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +32,12 @@
 		D6A990D11EB17BBD000B0CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6A990D41EB17BBD000B0CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6A990D61EB17BBD000B0CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6A990E71EB180FA000B0CA9 /* AGLBaseRequestAPIDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLBaseRequestAPIDelegate.h; sourceTree = "<group>"; };
-		D6A990E81EB180FA000B0CA9 /* AGLNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLNetManager.h; sourceTree = "<group>"; };
-		D6A990E91EB180FA000B0CA9 /* AGLNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLNetManager.m; sourceTree = "<group>"; };
-		D6A990EA1EB180FA000B0CA9 /* AGLNetRequestConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLNetRequestConfiguration.h; sourceTree = "<group>"; };
-		D6A990EB1EB180FA000B0CA9 /* AGLNetRequestConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLNetRequestConfiguration.m; sourceTree = "<group>"; };
-		D6A990EE1EB18121000B0CA9 /* AGLNet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGLNet.h; sourceTree = "<group>"; };
+		D6A991361EB1B2A9000B0CA9 /* AGLBaseRequestAPIDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLBaseRequestAPIDelegate.h; sourceTree = "<group>"; };
+		D6A991371EB1B2A9000B0CA9 /* AGLNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLNet.h; sourceTree = "<group>"; };
+		D6A991381EB1B2A9000B0CA9 /* AGLNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLNetManager.h; sourceTree = "<group>"; };
+		D6A991391EB1B2A9000B0CA9 /* AGLNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLNetManager.m; sourceTree = "<group>"; };
+		D6A9913A1EB1B2A9000B0CA9 /* AGLNetRequestConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLNetRequestConfiguration.h; sourceTree = "<group>"; };
+		D6A9913B1EB1B2A9000B0CA9 /* AGLNetRequestConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLNetRequestConfiguration.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +72,7 @@
 		D6A990B91EB17BBD000B0CA9 = {
 			isa = PBXGroup;
 			children = (
+				D6A991351EB1B2A9000B0CA9 /* NetManager */,
 				D6A990C41EB17BBD000B0CA9 /* NetManagerDemo */,
 				D6A990C31EB17BBD000B0CA9 /* Products */,
 				7A5DA3C386DC156C79F2655A /* Pods */,
@@ -98,7 +99,6 @@
 				D6A990D11EB17BBD000B0CA9 /* Assets.xcassets */,
 				D6A990D31EB17BBD000B0CA9 /* LaunchScreen.storyboard */,
 				D6A990D61EB17BBD000B0CA9 /* Info.plist */,
-				D6A990E61EB180FA000B0CA9 /* NetManager */,
 				D6A990C51EB17BBD000B0CA9 /* Supporting Files */,
 			);
 			path = NetManagerDemo;
@@ -112,18 +112,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D6A990E61EB180FA000B0CA9 /* NetManager */ = {
+		D6A991351EB1B2A9000B0CA9 /* NetManager */ = {
 			isa = PBXGroup;
 			children = (
-				D6A990E71EB180FA000B0CA9 /* AGLBaseRequestAPIDelegate.h */,
-				D6A990E81EB180FA000B0CA9 /* AGLNetManager.h */,
-				D6A990E91EB180FA000B0CA9 /* AGLNetManager.m */,
-				D6A990EA1EB180FA000B0CA9 /* AGLNetRequestConfiguration.h */,
-				D6A990EB1EB180FA000B0CA9 /* AGLNetRequestConfiguration.m */,
-				D6A990EE1EB18121000B0CA9 /* AGLNet.h */,
+				D6A991361EB1B2A9000B0CA9 /* AGLBaseRequestAPIDelegate.h */,
+				D6A991371EB1B2A9000B0CA9 /* AGLNet.h */,
+				D6A991381EB1B2A9000B0CA9 /* AGLNetManager.h */,
+				D6A991391EB1B2A9000B0CA9 /* AGLNetManager.m */,
+				D6A9913A1EB1B2A9000B0CA9 /* AGLNetRequestConfiguration.h */,
+				D6A9913B1EB1B2A9000B0CA9 /* AGLNetRequestConfiguration.m */,
 			);
-			name = NetManager;
-			path = ../../../NetManager;
+			path = NetManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +248,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6A990EC1EB180FA000B0CA9 /* AGLNetManager.m in Sources */,
+				D6A9913C1EB1B2A9000B0CA9 /* AGLNetManager.m in Sources */,
 				D6A990CD1EB17BBD000B0CA9 /* ViewController.m in Sources */,
-				D6A990ED1EB180FA000B0CA9 /* AGLNetRequestConfiguration.m in Sources */,
+				D6A9913D1EB1B2A9000B0CA9 /* AGLNetRequestConfiguration.m in Sources */,
 				D6A990CA1EB17BBD000B0CA9 /* AppDelegate.m in Sources */,
 				D6A990C71EB17BBD000B0CA9 /* main.m in Sources */,
 			);
